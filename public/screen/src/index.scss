@@ -1,0 +1,16 @@
+:global(body) {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  background-color: black;
+  overflow: hidden;
+}
+:global(div) {
+  box-sizing: border-box;
+}
+:global(#futusign_youtube) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
